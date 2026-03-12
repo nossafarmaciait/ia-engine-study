@@ -12,7 +12,7 @@ const SECTIONS = [
     theory: [
       {
         heading: "Definição",
-        body: `<p>O <strong>SQL Server</strong> é o motor de base de dados central usado nos projectos Nossa Farmácia / Addo Pharma. Todos os scripts de automação e APIs do IA Engine acedem ao SQL Server via <strong>pymssql</strong>.</p>
+        body: `<p>O <strong>SQL Server</strong> é o motor de base de dados central usado nos projectos Nossa Farmácia / Addo Pharm. Todos os scripts de automação e APIs do IA Engine acedem ao SQL Server via <strong>pymssql</strong>.</p>
 <p>Os dados de negócio — encomendas, stock, facturação, logística — residem em bases SQL Server, e o <strong>BIADDO</strong> é o data warehouse onde vivem as views e tabelas agregadas para análise.</p>`
       },
       {

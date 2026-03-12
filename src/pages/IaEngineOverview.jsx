@@ -98,7 +98,7 @@ const SECTIONS = [
     title: "O Que É o IA Engine?",
     theory: `Imagina que trabalhas numa empresa com dezenas de farmácias e precisas de, todos os dias, fazer coisas como: enviar encomendas para fornecedores, sincronizar dados entre sistemas, gerar relatórios, ou notificar a equipa quando algo corre mal. Fazer tudo isto manualmente seria impossível. É aqui que entra o **IA Engine**.
 
-**O IA Engine é a plataforma de automação interna da Nossa Farmácia / Addo Pharma.** É uma ferramenta feita à medida que permite criar "automações" — tarefas que correm sozinhas, com horário definido, sem intervenção humana.
+**O IA Engine é a plataforma de automação interna da Nossa Farmácia / Addo Pharm.** É uma ferramenta feita à medida que permite criar "automações" — tarefas que correm sozinhas, com horário definido, sem intervenção humana.
 
 **Na prática, o que faz?**
 Pensa no IA Engine como um "assistente" que corre no servidor e executa tarefas repetitivas por ti. Por exemplo:
@@ -140,7 +140,7 @@ O ambiente de desenvolvimento é onde testas coisas novas. O de produção é on
     title: "O Negócio Farmacêutico",
     theory: `Antes de mexer no IA Engine, é fundamental perceber o negócio que estás a automatizar. Sem este contexto, o código não faz sentido.
 
-**O Grupo Nossa Farmácia / Addo Pharma**
+**O Grupo Nossa Farmácia / Addo Pharm**
 É um grupo de farmácias em Portugal. Não é uma farmácia única — é uma rede. O grupo negoceia condições com fornecedores (grossistas) em nome de todas as farmácias aderentes e ganha **comissões** sobre essas negociações. Este é o modelo de receita: fee-based (baseado em taxas/comissões).
 
 **Porque isto importa para ti?**

@@ -120,7 +120,7 @@ export default function Home() {
           </h1>
           <p style={styles.subtitle}>
             Guias interactivos com teoria e quizzes para a equipa de
-            desenvolvimento Nossa Farmácia / Addo Pharma.
+            desenvolvimento Nossa Farmácia / Addo Pharm.
           </p>
           <div style={styles.stats}>
             <div style={styles.stat}>
@@ -230,7 +230,7 @@ export default function Home() {
           alt="Nossa Farmácia"
           style={styles.footerLogo}
         />
-        <span>DEVTEAM — Nossa Farmácia / Addo Pharma</span>
+        <span>DEVTEAM — Nossa Farmácia / Addo Pharm</span>
       </footer>
     </div>
   );

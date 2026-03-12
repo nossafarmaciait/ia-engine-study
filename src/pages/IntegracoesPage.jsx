@@ -12,13 +12,13 @@ const SECTIONS = [
     theory: [
       {
         heading: "Visão geral",
-        body: `<p>O IA Engine é o hub central de automação da Nossa Farmácia / Addo Pharma. Os scripts de automação integram-se com <strong>múltiplos sistemas externos</strong>:</p>
+        body: `<p>O IA Engine é o hub central de automação da Nossa Farmácia / Addo Pharm. Os scripts de automação integram-se com <strong>múltiplos sistemas externos</strong>:</p>
 <ul>
 <li><strong>Odoo</strong> — ERP (gestão de produtos, stock, encomendas, facturação)</li>
 <li><strong>Meilisearch</strong> — motor de pesquisa rápida para catálogos</li>
 <li><strong>Microsoft Teams</strong> — notificações e alertas de erros</li>
 <li><strong>VTEX</strong> — plataforma de e-commerce</li>
-<li><strong>APIs de logística</strong> — CTT, OCP, Torres Pharma, Glovo, Uber Eats</li>
+<li><strong>APIs de logística</strong> — CTT, OCP, Torres Pharm, Glovo, Uber Eats</li>
 <li><strong>Pagamentos</strong> — Easypay, Paygate</li>
 <li><strong>Facturação</strong> — Moloni</li>
 </ul>`
@@ -107,7 +107,7 @@ const SECTIONS = [
     theory: [
       {
         heading: "O que é o Odoo?",
-        body: `<p>O <strong>Odoo</strong> é o ERP usado pela Nossa Farmácia / Addo Pharma para gestão de produtos, stock, encomendas, clientes e facturação.</p>
+        body: `<p>O <strong>Odoo</strong> é o ERP usado pela Nossa Farmácia / Addo Pharm para gestão de produtos, stock, encomendas, clientes e facturação.</p>
 <p>A integração é feita via <strong>XML-RPC</strong>, um protocolo que permite chamar funções remotas no servidor Odoo como se fossem locais. A biblioteca <strong>odoo-py</strong> (desenvolvida internamente e publicada no PyPI) abstrai toda esta comunicação.</p>`
       },
       {
@@ -729,7 +729,7 @@ enviar_teams(
 <ul>
 <li><strong>CTT</strong> — Correios de Portugal (envios postais nacionais)</li>
 <li><strong>OCP</strong> — Distribuição farmacêutica</li>
-<li><strong>Torres Pharma</strong> — Logística farmacêutica especializada</li>
+<li><strong>Torres Pharm</strong> — Logística farmacêutica especializada</li>
 <li><strong>Glovo</strong> — Entregas rápidas (last-mile delivery)</li>
 <li><strong>Uber Eats</strong> — Entregas rápidas (marketplace)</li>
 </ul>
