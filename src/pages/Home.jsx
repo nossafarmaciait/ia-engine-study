@@ -13,6 +13,16 @@ const COURSES = [
     quizzes: 30,
   },
   {
+    id: "task-engine",
+    title: "Como criar uma Automação",
+    description: "Scripts, Schedules, Actions, Tickets e o ciclo de vida completo das automações agendadas.",
+    tags: ["task_engine", "Celery", "Cron", "Tickets"],
+    status: "available",
+    path: "/task-engine",
+    sections: 6,
+    quizzes: 35,
+  },
+  {
     id: "api-function-service",
     title: "Como criar uma API",
     description: "Aprende a estrutura de um script FunctionService — do main(**kwargs) ao Pydantic BaseModel.",
