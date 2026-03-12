@@ -229,9 +229,9 @@ const styles = {
     background: `linear-gradient(165deg, ${card} 0%, ${accent} 100%)`,
     borderBottom: `1px solid ${border}`,
   },
-  headerInner: { maxWidth: 640, margin: "0 auto" },
+  headerInner: { maxWidth: 640, margin: "0 auto", display: "flex", flexDirection: "column", alignItems: "center" },
   logo: {
-    height: 40,
+    height: 120,
     marginBottom: "1.2rem",
     objectFit: "contain",
   },
