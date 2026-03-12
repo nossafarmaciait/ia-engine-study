@@ -800,6 +800,7 @@ export default function ApiStudyPage() {
 
       {/* Hero */}
       <header className="hero">
+        <img src="https://nossafarmacia.vtexassets.com/assets/vtex.file-manager-graphql/images/f432f301-b5fa-4453-aa24-22ea02396e16___13e59f7056915bc23b198375758778f6.png" alt="Nossa Farmácia" className="hero-logo" />
         <div className="hero-badge">api_engine · Guia de Estudo</div>
         <h1>Como criar uma <em>API</em> no IA Engine</h1>
         <p>Aprende a estrutura de um script FunctionService — do <code>main(**kwargs)</code> ao Pydantic BaseModel.</p>

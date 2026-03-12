@@ -59,6 +59,11 @@ export default function Home() {
       {/* HEADER */}
       <header style={styles.header}>
         <div style={styles.headerInner}>
+          <img
+            src="https://nossafarmacia.vtexassets.com/assets/vtex.file-manager-graphql/images/f432f301-b5fa-4453-aa24-22ea02396e16___13e59f7056915bc23b198375758778f6.png"
+            alt="Nossa Farmácia"
+            style={styles.logo}
+          />
           <div style={styles.badge}>DEVTEAM · Plataforma de Estudo</div>
           <h1 style={styles.h1}>
             IA Engine <em style={styles.em}>Academy</em>
@@ -170,6 +175,11 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer style={styles.footer}>
+        <img
+          src="https://nossafarmacia.vtexassets.com/assets/vtex.file-manager-graphql/images/f432f301-b5fa-4453-aa24-22ea02396e16___13e59f7056915bc23b198375758778f6.png"
+          alt="Nossa Farmácia"
+          style={styles.footerLogo}
+        />
         <span>DEVTEAM — Nossa Farmácia / Addo Pharma</span>
       </footer>
     </div>
@@ -220,6 +230,11 @@ const styles = {
     borderBottom: `1px solid ${border}`,
   },
   headerInner: { maxWidth: 640, margin: "0 auto" },
+  logo: {
+    height: 40,
+    marginBottom: "1.2rem",
+    objectFit: "contain",
+  },
   badge: {
     display: "inline-flex",
     alignItems: "center",
@@ -394,5 +409,14 @@ const styles = {
     color: muted,
     fontWeight: 500,
     borderTop: `1px solid ${border}`,
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: "0.6rem",
+  },
+  footerLogo: {
+    height: 24,
+    objectFit: "contain",
+    opacity: 0.5,
   },
 };
