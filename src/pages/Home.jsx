@@ -37,10 +37,10 @@ const COURSES = [
     title: "Integrações Externas",
     description: "Odoo XML-RPC, Meilisearch, Teams, VTEX e outras integrações da plataforma.",
     tags: ["Odoo", "Meilisearch", "Teams", "VTEX"],
-    status: "coming-soon",
-    path: null,
-    sections: null,
-    quizzes: null,
+    status: "available",
+    path: "/integracoes",
+    sections: 6,
+    quizzes: 33,
   },
 ];
 

@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import IaEngineOverview from "./pages/IaEngineOverview";
 import ApiStudyPage from "./pages/ApiStudyPage";
 import SqlEtlPage from "./pages/SqlEtlPage";
+import IntegracoesPage from "./pages/IntegracoesPage";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Route path="/ia-engine-overview" element={<IaEngineOverview />} />
         <Route path="/api-function-service" element={<ApiStudyPage />} />
         <Route path="/sql-etl" element={<SqlEtlPage />} />
+        <Route path="/integracoes" element={<IntegracoesPage />} />
       </Routes>
     </HashRouter>
   );
